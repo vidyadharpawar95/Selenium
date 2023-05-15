@@ -1,0 +1,10 @@
+; Handling chrome/firefox upload
+WinWaitActive("Open")
+Sleep(2000)
+Send("C:\Crio Selenium\Selenium_practice\upload file\vidya.txt")
+Sleep(2000)
+Send("{TAB}")
+Sleep(2000)
+Send("{TAB}")
+Sleep(2000)
+Send("{ENTER}")
